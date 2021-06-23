@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family:'Roboto';
+    margin: 0px;
+}
+
+header{
+    height: 139px;
+}
+.mini_header{
+    background-color:#1CD1B0;
+    position: absolute;
+    width: 100%;
+    height: 38px;
+    top: 0px;
+    left: 0px;
+}
+.mini_header p{
+    font-size: 15px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+.titulo{
+    background-color: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    position: absolute;
+    height: 101px;
+    top: 38px;
+    width: 100%;
+}
+
+h1{
+    font-size: 40px;
+    left: 28px;
+    position: absolute;
+    top: 28px;
+}
+
+main{
+    margin: 150px auto 150px auto;
+    width: 90%;
+}
+
+main div{
+    margin: auto;
+    width: fit-content;
+}
+.like{
+    position: absolute;
+    display: block;
+    top: 15px;
+    left: 21px;
+}
+.Cuadrado1{
+    background-color: #f3f3f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 529px;
+    margin-right: 30px;
+    position: relative;
+    text-align: center;
+    width: 300px;
+}
+
+.avatar{
+    border-radius: 50%;
+    position: absolute;
+    display: block;
+    left: 90px;
+    top: 127px;
+}
+
+section{
+    display: inline-block;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 74px;
+}
+
+section p{
+    font-size: 16px;
+    color: #333333;
+    margin-top: 10px;
+    padding-left: 16px;
+    padding-right: 17px;
+    text-align: left;
+}
+
+button{
+    bottom: 18.48px;
+    height: 48.52px;
+    width: 128.78px;
+    margin-top: 25px;
+    background-color: #00669F;
+    color: #F3F3F3;
+    border: none;
+}
+
+footer{
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 51px;
+    width: 100%;
+}
+
+footer p{
+    color: #FFF9F9;
+    font-size: 16px;
+    padding: 16px;
+}
